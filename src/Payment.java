@@ -7,12 +7,12 @@ public class Payment {
     private String status;
     private String dateTime;   
 
-    public Payment(String paymentId, String studentId, double amount, String status, String dateTime) {
+    public Payment(String paymentId, String studentId, double amount, String status,) {
         this.paymentId = paymentId;
         this.studentId = studentId;
         this.amount = amount;
         this.status = status;
-        this.dateTime = dateTime;
+        
     }
 
     public String getPaymentId() {
@@ -31,17 +31,15 @@ public class Payment {
         return status;
     }
 
-    public String getDateTime() {  
-        return dateTime;
+
     }
 
     public String toFileLine() {
-        return paymentId + "," + studentId + "," + amount + "," + status + "," + dateTime;
+        return paymentId + "," + studentId + "," + amount + "," + status;
     }
 
     public String toDisplayString() {
-        return "Date & Time: " + dateTime
-                + "\nPayment ID: " + paymentId
+        return "Payment ID: " + paymentId
                 + " | Student ID: " + studentId
                 + " | Amount: " + amount
                 + " | Status: " + status;
