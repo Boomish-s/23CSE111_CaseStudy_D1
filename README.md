@@ -1,6 +1,6 @@
 # School Fee Management System 
 
-## 👥 Team Members
+##  Team Members
 
 * Arav D A – Debugging and Testing 
 * Boomish S  –Backend Development
@@ -31,7 +31,7 @@ This system automates student records, fee payments, and tracking of dues, makin
 
 ---
 
-## 🧪 Sample Input / Output
+##  Sample Input / Output
 
 Date & Time: 06-05-2026 05:05:56
 
@@ -71,7 +71,7 @@ Student ID: 306 | Name: Arav | Class: CSE | Total: 20000.0 | Paid: 20000.0 | Due
 
 ---
 
-## 🛠️ Tools / Technologies Used
+##  Tools / Technologies Used
 
 * Java
 * Object-Oriented Programming (OOP)
@@ -79,7 +79,7 @@ Student ID: 306 | Name: Arav | Class: CSE | Total: 20000.0 | Paid: 20000.0 | Due
 
 ---
 
-## 📌 Features
+##  Features
 
 * Add student
 * Fee payment system
