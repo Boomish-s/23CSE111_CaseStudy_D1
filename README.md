@@ -4,10 +4,10 @@
 
 ## 👥 Team Members
 
-* Arav D A – Backend Logic & Testing
-* Boomish S – Backend Development
-* Avinash M – Class Design & OOP Implementation
-* Neekshitha – Documentation & Output
+* Arav D A – [Identified the classes and helped create uml diagrams]
+* Boomish S – [Helped in creating github repo and proof reading the code]
+* Avinash M – [Class Design & OOP Implementation]
+* Neekshitha – [Documentation & Output]
 
 ---
 
