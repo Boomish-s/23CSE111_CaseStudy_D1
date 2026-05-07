@@ -2,7 +2,6 @@ package school.fees;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
@@ -143,7 +142,7 @@ public class Main {
     }
 
     private static String getCurrentDateTime() {
-        SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-        return formatter.format(new Date());
+       LocalDateTime now = LocalDateTime.now();
+       return now;
     }
 }
