@@ -31,7 +31,7 @@ public class Payment {
     }
 
     public String toFileLine() {
-        return paymentId + "," + studentId + "," + amount + "," + status;
+        return "PaymentID"+paymentId + "," +"StudentId"+ studentId + "," +"Amount"+ amount + "," + "Status" + status;
     }
 
     public String toDisplayString() {
